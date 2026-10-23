@@ -1,110 +1,317 @@
-<<<<<<< HEAD
-# AI Engineering: 60-Day Learning Journey
+# ⚡ AI Engineering | Build. Learn. Engineer.
 
-A hands-on learning repository for building practical AI engineering skills over
-60 days. The goal is to progress from calling language model APIs to designing,
-testing, and delivering useful AI applications.
+<div align="center">
 
-## Learning goals
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,40:312E81,100:06B6D4&text=AI%20ENGINEERING&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=From%20LLM%20Fundamentals%20to%20Production-Ready%20AI&descAlignY=58&descSize=15" width="100%" alt="AI Engineering banner"/>
 
-- Build a strong foundation in Python and language model APIs.
-- Practice prompt design, structured outputs, and reliable application code.
-- Learn retrieval-augmented generation (RAG), evaluation, and deployment basics.
-- Keep experiments, notes, and project work organized and reproducible.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=800&lines=Building+Intelligent+Applications;Python+%7C+LLMs+%7C+Prompt+Engineering;Exploring+RAG+and+AI+Application+Design;Learning+by+Building+Real+Projects" alt="AI Engineering animation"/>
 
-## Roadmap
+<br/>
 
-The plan is grouped into nine weeks. Weeks 1–8 cover seven days each, and Week 9
-covers the final four days, for a total of 60 days. Topics after the current
-starter materials are a roadmap, not a claim that the work is already complete.
+<img src="https://img.shields.io/badge/FOCUS-AI_ENGINEERING-6D28D9?style=for-the-badge&logo=probot&logoColor=white" alt="Focus: AI Engineering"/>
+<img src="https://img.shields.io/badge/LANGUAGE-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/LLM_API-GROQ-F55036?style=for-the-badge&logo=groq&logoColor=white" alt="Groq"/>
+<img src="https://img.shields.io/badge/ROADMAP-60_DAYS-0891B2?style=for-the-badge&logo=github&logoColor=white" alt="60-day roadmap"/>
 
-| Week | Focus |
-| --- | --- |
-| Week 1 | Python setup, LLM APIs, prompts, and first experiments |
-| Week 2 | Prompt engineering, chat workflows, and structured responses |
-| Week 3 | Embeddings, vector search, and semantic retrieval |
-| Week 4 | Retrieval-augmented generation (RAG) applications |
-| Week 5 | Tool calling, agents, and workflow orchestration |
-| Week 6 | Evaluation, testing, and improving AI application quality |
-| Week 7 | Data preparation, safety, and responsible AI practices |
-| Week 8 | Deployment, monitoring, and production-minded engineering |
-| Week 9 | Capstone polish, documentation, and learning review (Days 57–60) |
+**A hands-on repository for learning, experimenting, and building practical AI applications.**
 
-## Repository structure
+</div>
+
+---
+
+## 🧠 About This Repository
+
+Welcome to my **AI Engineering workspace**!
+
+This repository documents my practical work with Python, Large Language Models (LLMs), prompt engineering, AI APIs, and the engineering practices needed to build useful AI applications.
+
+The objective is to move beyond simple API calls and progressively explore how to design, evaluate, document, and deliver reliable AI-powered solutions.
+
+<div align="center">
+
+| 🤖 AI Fundamentals | 🐍 Python Development | 🔎 Retrieval Systems | 🚀 Application Engineering |
+|:---:|:---:|:---:|:---:|
+| LLMs and prompts | APIs and application logic | Embeddings and RAG | Testing and deployment |
+
+</div>
+
+## 🎯 Learning Objectives
+
+- Build practical Python applications that interact with language models.
+- Understand system prompts, user prompts, and response generation.
+- Work with structured outputs and reliable API integrations.
+- Explore embeddings, vector search, and Retrieval-Augmented Generation (RAG).
+- Experiment with tool calling, AI agents, and workflow orchestration.
+- Learn evaluation, testing, safety, and responsible AI practices.
+- Apply software engineering principles to AI applications.
+- Develop documented projects that demonstrate practical skills.
+
+---
+
+## 🗺️ The AI Engineering Roadmap
+
+The roadmap spans **60 days across nine weeks**. Weeks 1–8 cover seven days each, while Week 9 covers the final four days.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PHASE_01-LLM_FUNDAMENTALS-2563EB?style=for-the-badge" alt="LLM fundamentals"/>
+<img src="https://img.shields.io/badge/PHASE_02-PROMPT_ENGINEERING-7C3AED?style=for-the-badge" alt="Prompt engineering"/>
+<img src="https://img.shields.io/badge/PHASE_03-RETRIEVAL_SYSTEMS-0891B2?style=for-the-badge" alt="Retrieval systems"/>
+
+</div>
+
+| Week | Focus | Main Outcome |
+|:---:|---|---|
+| **01** | Python setup, LLM APIs, prompts, and first experiments | Working LLM API examples |
+| **02** | Prompt engineering, chat workflows, and structured responses | More capable LLM interactions |
+| **03** | Embeddings, vector search, and semantic retrieval | Retrieval fundamentals |
+| **04** | Retrieval-Augmented Generation (RAG) | Document question-answering application |
+| **05** | Tool calling, agents, and orchestration | AI workflows that use tools |
+| **06** | Evaluation, testing, and quality improvement | More reliable AI applications |
+| **07** | Data preparation, safety, and responsible AI | Safer application design |
+| **08** | Deployment, monitoring, and production-minded engineering | Deployment-ready foundations |
+| **09** | Capstone polish, documentation, and review | A finished and documented project |
+
+<details>
+<summary><strong>📌 View current progress and next milestones</strong></summary>
+
+### Current focus: Week 1
+
+- [x] Set up Python and the Groq SDK.
+- [x] Create an initial LLM chat completion example.
+- [x] Load the API key from an environment file.
+- [ ] Experiment with system prompts and temperature.
+- [ ] Improve error handling and response formatting.
+- [ ] Document the completed exercises with sample outputs.
+
+**Note:** The checkboxes represent the current project record and should be updated as exercises are completed. Later roadmap topics are planned work, not claims of completion.
+
+</details>
+
+---
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+### Core Development
+
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode,linux&theme=dark" alt="Python and development tools"/>
+
+### AI and Data
+
+<img src="https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge&logo=groq&logoColor=white" alt="Groq API"/>
+<img src="https://img.shields.io/badge/LLMs-6D28D9?style=for-the-badge" alt="Large Language Models"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-0891B2?style=for-the-badge" alt="Prompt engineering"/>
+<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge" alt="Retrieval-Augmented Generation"/>
+
+</div>
+
+| Technology | Purpose |
+|---|---|
+| Python | Application logic and AI integrations |
+| Groq Python SDK | Accessing supported language models |
+| `python-dotenv` | Loading local environment variables |
+| Git and GitHub | Source control, collaboration, and project history |
+| `uv` | Managing the existing day-level Python projects |
+
+Additional tools will be documented as they are introduced and used.
+
+---
+
+## 📁 Project Structure
 
 ```text
-Week-1/
-  Day-1/
-  Day-2/
-requirements.txt
-README.md
+ai-engineering-60-days/
+│
+├── Week-1/
+│   ├── Day-1/
+│   │   └── Hello_LLM.py
+│   │
+│   └── Day-2/
+│       └── sys_temp.py
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
-Existing day folders and files are being preserved in place. Add later work as
-`Week-2/Day-8/` onward, following the same `Week-N/Day-N/` pattern. No files
-have been moved as part of this setup.
+The tree illustrates the current starter layout. Additional files may exist inside each day folder; the exact structure should be updated as the repository evolves.
 
-## Current progress
+### 🧪 Current Experiments
 
-- Week 1: starter materials are present for Day 1 and Day 2.
-- Current examples call the Groq chat completions API and load the API key from
-  an environment file.
-- Update this section as each day's work is completed; files being present does
-  not necessarily mean the lesson has been completed.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Technologies
+<h3>🤖 First LLM Application</h3>
 
-- Python 3.14 or newer, as declared by the existing day projects.
-- Groq Python SDK for chat completions.
-- `python-dotenv` for loading local environment variables.
-- `uv` is used by the existing day folders to manage Python projects.
+Connect a Python program to a language model and generate a response from a user prompt.
 
-## Setup
+**Key concepts**
+- API client initialization
+- Message roles
+- Chat completions
+- Response extraction
 
-From the repository root, create and activate a virtual environment, then
-install the shared dependencies:
+</td>
+<td width="50%" valign="top">
+
+<h3>🎛️ System Prompts & Temperature</h3>
+
+Explore how system instructions and generation settings affect model responses.
+
+**Key concepts**
+- System and user messages
+- Model configuration
+- Response variability
+- Output quality
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```powershell
+git clone https://github.com/HarshikReddyDendi/ai-engineering-60-days.git
+cd ai-engineering-60-days
+```
+
+### 2. Create a virtual environment
 
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks activation, follow your system's Python virtual-environment guidance rather than changing security settings unnecessarily.
+
+### 3. Install dependencies
+
+```powershell
 python -m pip install -r requirements.txt
 ```
 
-Create a local `.env` file in the directory from which you run a script and add
-your own key:
+If a day-level project uses a separate `uv` environment, follow the instructions in that folder and avoid mixing unrelated environments.
+
+### 4. Configure your API key
+
+Create a local `.env` file in the directory from which the script loads environment variables:
 
 ```text
 GROQ_API_KEY=your_groq_api_key
 ```
 
-Never commit `.env` files, API keys, or other credentials. The `.gitignore`
-rules exclude them from Git. If a key has ever been published, revoke it with
-the provider and replace it.
+Replace the placeholder with your own key from the [Groq Console](https://console.groq.com/).
 
-Run an existing example from its own folder:
+**🔐 Security rules**
+
+- Never commit your actual `.env` file or API key.
+- Keep `.env` excluded through `.gitignore`.
+- Do not hardcode credentials into Python files.
+- Use environment variables or a suitable secrets manager.
+- If a key is accidentally exposed, revoke it and generate a replacement.
+
+### 5. Run the examples
+
+Run the first LLM example:
 
 ```powershell
 Set-Location .\Week-1\Day-1
 python .\Hello_LLM.py
 ```
 
+Run the second experiment:
+
 ```powershell
-Set-Location .\Week-1\Day-2
+Set-Location ..\Day-2
 python .\sys_temp.py
 ```
 
-## Projects
+The available model ID may need to be updated to a model currently supported by your Groq account.
 
-The current starter projects are small Groq-powered chat experiments: a basic
-chat completion and a system-prompt-based brand-name generator. A suitable
-capstone direction for the later weeks is a documented, evaluated RAG
-application; its scope can evolve as the learning plan progresses.
+---
 
-## Progress tracking
+## 📈 Progress Tracking
 
-Add brief notes to each day's README covering the concept studied, what was
-built, and what remains to try. Keep API credentials, private data, virtual
-environments, and generated caches out of the repository.
-=======
-# ai-engineering-60-days
->>>>>>> 63ec87b6ed9687e3fefcd81625e53ecdf2816b1e
+The goal is to make each learning session produce something tangible: working code, a technical note, an experiment, a test, or an improvement to an existing project.
+
+| Activity | What to document |
+|---|---|
+| Learn | Summarize the concept in your own words |
+| Build | Include runnable and organized code |
+| Experiment | Record the prompt, settings, and observed result |
+| Test | Document errors, edge cases, and fixes |
+| Improve | Explain what changed and why |
+| Review | Record lessons learned and remaining tasks |
+
+### ✅ Definition of done for each exercise
+
+- [ ] Code runs successfully.
+- [ ] The key concept is understood.
+- [ ] Errors and important limitations are documented.
+- [ ] No credentials or private data are included.
+- [ ] Changes are committed to Git when appropriate.
+
+---
+
+## 🚀 Future Project Directions
+
+These are planned project ideas, to be developed as the relevant topics are learned.
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PROJECT_01-LLM_CHAT_ASSISTANT-2563EB?style=for-the-badge" alt="LLM chat assistant"/>
+<img src="https://img.shields.io/badge/PROJECT_02-DOCUMENT_Q%26A-7C3AED?style=for-the-badge" alt="Document Q&A"/>
+<img src="https://img.shields.io/badge/PROJECT_03-RAG_APPLICATION-0891B2?style=for-the-badge" alt="RAG application"/>
+
+</div>
+
+**LLM Chat Assistant** — a conversational application with configurable system instructions and robust API handling.
+
+**Document Q&A with RAG** — an application that retrieves relevant document passages to help generate grounded answers.
+
+**AI Application Evaluation** — a small testing framework for examining response quality, consistency, and failure cases.
+
+Each project will have its own documentation, setup instructions, examples, and known limitations.
+
+---
+
+## 🧭 Engineering Principles
+
+<div align="center">
+
+| 🧩 Understand | 🏗️ Build | 🧪 Evaluate | 🔒 Protect |
+|:---:|:---:|:---:|:---:|
+| Learn the concept | Write maintainable code | Test the output | Safeguard credentials |
+
+</div>
+
+AI applications are more than API calls. Good engineering also requires clear requirements, sound data handling, useful error messages, testing, security, and honest evaluation of results.
+
+---
+
+## 🤝 Connect
+
+<div align="center">
+
+**Learn deeply. Build practically. Engineer responsibly.**
+
+[![GitHub](https://img.shields.io/badge/GitHub-HarshikReddyDendi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HarshikReddyDendi)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshik-dendi)
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:06B6D4,50:312E81,100:0F172A" width="100%" alt="Footer banner"/>
+
+**⚡ Building practical AI, one experiment at a time.**
+
+</div>
