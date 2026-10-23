@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Engineering: 60-Day Learning Journey
 
 A hands-on learning repository for building practical AI engineering skills over
@@ -104,3 +105,6 @@ application; its scope can evolve as the learning plan progresses.
 Add brief notes to each day's README covering the concept studied, what was
 built, and what remains to try. Keep API credentials, private data, virtual
 environments, and generated caches out of the repository.
+=======
+# ai-engineering-60-days
+>>>>>>> 63ec87b6ed9687e3fefcd81625e53ecdf2816b1e
