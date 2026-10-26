@@ -1,0 +1,21 @@
+[project]
+name = "day-4"
+version = "0.1.0"
+description = "Customer ticket extraction using Groq structured outputs and Pydantic validation"
+readme = "README.md"
+authors = [
+    { name = "HarshikReddyDendi", email = "harshikdendi2003@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+    "pydantic>=2.10.0",
+]
+
+[project.scripts]
+day-4 = "day_4:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
